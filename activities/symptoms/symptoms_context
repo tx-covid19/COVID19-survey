@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "symptoms": "https://raw.githubusercontent.com/YOUR-PATH-TO-ITEM-FOLDER",
+    "body temperature": {
+      "@id": "symptoms:body temperature",
+      "@type": "@id"
+    }
+  }
+}

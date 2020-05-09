@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/YOUR-ACTIVITY-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "body temperature",
+  "skos:prefLabel": "body temperature",
+  "skos:altLabel": "body temperature",
+  "schema:description": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "question": "What is your body temperature?",
+  "ui": {
+    "inputType": "text"
+  },
+  "responseOptions": {
+    "maxLength": 50,
+    "requiredValue": true,
+    "type": "xsd:string"
+  }
+}

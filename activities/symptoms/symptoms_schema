@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/YOUR-ACTIVITY-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "symptoms",
+  "skos:prefLabel": "symptoms",
+  "skos:altLabel": "symptoms",
+  "schema:description": "check symptoms of COVID19",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "ui": {
+    "order": [
+      "symptoms",
+      "body temperature"
+    ],
+    "shuffle": false,
+    "visibility": {
+      "symptoms": true,
+      "body temperature": true
+    },
+    "allow": []
+  }
+}

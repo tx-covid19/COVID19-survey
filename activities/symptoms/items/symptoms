@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/YOUR-ACTIVITY-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "symptoms",
+  "skos:prefLabel": "symptoms",
+  "skos:altLabel": "symptoms",
+  "schema:description": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "question": "Do you have any of the following COVID symptoms:",
+  "ui": {
+    "inputType": "radio"
+  },
+  "responseOptions": {
+    "@type": "xsd:anyURI",
+    "multipleChoice": false,
+    "schema:minValue": 0,
+    "schema:maxValue": 13,
+    "choices": [
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "tiredness",
+        "schema:value": 0
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "fever",
+        "schema:value": 1
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "dry cough",
+        "schema:value": 2
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "wet cough",
+        "schema:value": 3
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "bloody cough",
+        "schema:value": 4
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "shortness of breath/rapid breathing",
+        "schema:value": 5
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "abdominal pain",
+        "schema:value": 6
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "diarrhea",
+        "schema:value": 7
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "vomiting",
+        "schema:value": 8
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "headache",
+        "schema:value": 9
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "loss of smell",
+        "schema:value": 10
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "loss of taste",
+        "schema:value": 11
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "other",
+        "schema:value": 12
+      },
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "none of the above",
+        "schema:value": 13
+      }
+    ]
+  }
+}

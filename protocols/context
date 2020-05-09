@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/",
+    "symptoms": {
+      "@id": "activity_path:symptoms/symptoms_schema",
+      "@type": "@id"
+    }
+  }
+}

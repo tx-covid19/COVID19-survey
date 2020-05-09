@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/YOUR-PROTOCOL-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Protocol",
+  "@id": "COVID-19_schema",
+  "skos:prefLabel": "COVID-19",
+  "skos:altLabel": "COVID-19",
+  "schema:description": "COVID-19 survey.",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "schema:about": "COVID-19 survey.",
+  "variableMap": [
+    {
+      "variableName": "symptoms",
+      "isAbout": "symptoms"
+    }
+  ],
+  "ui": {
+    "order": [
+      "symptoms"
+    ],
+    "shuffle": false,
+    "activity_display_name": {
+      "symptoms": "symptoms"
+    },
+    "visibility": {
+      "symptoms": true
+    }
+  }
+}
