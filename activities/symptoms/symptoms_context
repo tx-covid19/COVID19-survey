@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "survey": "https://raw.githubusercontent.com/tx-covid19/COVID19-survey/master/activities/symptoms",
+    "survey": "https://raw.githubusercontent.com/tx-covid19/COVID19-survey/master/activities/symptoms/",
     "symptoms": {
       "@id": "survey:items/symptoms",
       "@type": "@id"
