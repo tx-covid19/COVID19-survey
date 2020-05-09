@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-    "https://raw.githubusercontent.com/YOUR-ACTIVITY-CONTEXT-FILE"
+    "https://raw.githubusercontent.com/tx-covid19/COVID19-survey/master/activities/symptoms/symptoms_context"
   ],
   "@type": "reproschema:Activity",
   "@id": "symptoms",
