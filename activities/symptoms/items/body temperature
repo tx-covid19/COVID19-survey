@@ -16,6 +16,6 @@
   "responseOptions": {
     "maxLength": 50,
     "requiredValue": true,
-    "type": "xsd:string"
+    "type": "xs:decimal"
   }
 }
