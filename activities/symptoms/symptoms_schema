@@ -13,24 +13,6 @@
   "preamble": "",
   "scoringLogic": {},
   "repronim:timeUnit": "yearmonthdate",
-  "variableMap": [
-    {
-      "variableName": "symptom",
-      "isAbout": "symptom"
-    },
-    {
-      "variableName": "temperature",
-      "isAbout": "temperature"
-    },
-    {
-      "variableName": "warning",
-      "isAbout": "warning"
-    },
-    {
-      "variableName": "info",
-      "isAbout": "info"
-    }
-  ],
   "ui": {
     "order": [
       "symptoms",
@@ -39,20 +21,24 @@
       "info"
     ],
     "shuffle": false,
-    "visibility": [
+    "addProperties": [
       {
+        "isAbout": "symptom",
         "variableName": "symptom",
         "isVis": true
       },
       {
+        "isAbout": "temperature",
         "variableName": "temperature",
         "isVis": true
       },
       {
+        "isAbout": "warning",
         "variableName": "warning",
         "isVis": "temperature >= 100 && symptom___13 <> '1'"
       },
       {
+        "isAbout": "info",
         "variableName": "info",
         "isVis": "symptom___13 == '1' || temperature < 100"
       }
