@@ -1,0 +1,16 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "warning",
+    "schema:description": "",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "inputType": "static"
+    },
+    "question": {
+        "en": "You should call your healthcare provider, clinician advice line, or telemedicine provider. \n\nIf your symptoms are considered severe by a medical professional, your healthcare provider may decide to write you a prescription for a Coronavirus test, if appropriate.\n\nFor general questions, please visit: https://www.austintexas.gov/covid19"
+    }
+}

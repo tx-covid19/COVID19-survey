@@ -9,6 +9,14 @@
     "body temperature": {
       "@id": "survey:items/body%20temperature",
       "@type": "@id"
+    },
+    "warning": {
+      "@id": "survey:items/warning",
+      "@type": "@id"
+    },
+    "info": {
+      "@id": "survey:items/info",
+      "@type": "@id"
     }
   }
 }

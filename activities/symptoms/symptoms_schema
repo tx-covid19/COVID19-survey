@@ -13,16 +13,50 @@
   "preamble": "",
   "scoringLogic": {},
   "repronim:timeUnit": "yearmonthdate",
+  "variableMap": [
+    {
+      "variableName": "symptom",
+      "isAbout": "symptom"
+    },
+    {
+      "variableName": "temperature",
+      "isAbout": "temperature"
+    },
+    {
+      "variableName": "warning",
+      "isAbout": "warning"
+    },
+    {
+      "variableName": "info",
+      "isAbout": "info"
+    }
+  ],
   "ui": {
     "order": [
       "symptoms",
-      "body temperature"
+      "body temperature",
+      "warning",
+      "info"
     ],
     "shuffle": false,
-    "visibility": {
-      "symptoms": true,
-      "body temperature": true
-    },
+    "visibility": [
+      {
+        "variableName": "symptom",
+        "isVis": true
+      },
+      {
+        "variableName": "temperature",
+        "isVis": true
+      },
+      {
+        "variableName": "warning",
+        "isVis": "temperature >= 100 && symptom___13 <> '1'"
+      },
+      {
+        "variableName": "info",
+        "isVis": "symptom___13 == '1' || temperature < 100"
+      }
+    ],
     "allow": []
   }
 }
