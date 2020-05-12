@@ -6,8 +6,8 @@
       "@id": "survey:items/symptoms",
       "@type": "@id"
     },
-    "body temperature": {
-      "@id": "survey:items/body%20temperature",
+    "temperature": {
+      "@id": "survey:items/temperature",
       "@type": "@id"
     },
     "warning": {

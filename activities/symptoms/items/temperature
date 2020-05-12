@@ -3,9 +3,9 @@
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
   ],
   "@type": "reproschema:Field",
-  "@id": "body temperature",
-  "skos:prefLabel": "body temperature",
-  "skos:altLabel": "body temperature",
+  "@id": "temperature",
+  "skos:prefLabel": "temperature",
+  "skos:altLabel": "temperature",
   "schema:description": "",
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
