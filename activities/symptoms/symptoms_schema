@@ -35,12 +35,12 @@
       {
         "isAbout": "warning",
         "variableName": "warning",
-        "isVis": "temperature >= 100 && symptom___13 <> '1'"
+        "isVis": "temperature >= 100"
       },
       {
         "isAbout": "info",
         "variableName": "info",
-        "isVis": "symptom___13 == '1' || temperature < 100"
+        "isVis": "temperature < 100"
       }
     ],
     "allow": []
