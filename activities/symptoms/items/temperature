@@ -11,7 +11,7 @@
   "schema:version": "0.0.1",
   "question": "What is your body temperature (in Fahrenheit)?",
   "ui": {
-    "inputType": "slider"
+    "inputType": "temperatureSlider"
   },
   "responseOptions": {
         "@type": "xsd:decimal",
@@ -24,400 +24,40 @@
                     "schema:value": 95.0
             },
             {
-                    "schema:name": "95.1",
-                    "schema:value": 95.1
-            },
-            {
-                    "schema:name": "95.2",
-                    "schema:value": 95.2
-            },
-            {
-                    "schema:name": "95.3",
-                    "schema:value": 95.3
-            },
-            {
-                    "schema:name": "95.4",
-                    "schema:value": 95.4
-            },
-            {
-                    "schema:name": "95.5",
-                    "schema:value": 95.5
-            },
-            {
-                    "schema:name": "95.6",
-                    "schema:value": 95.6
-            },
-            {
-                    "schema:name": "95.7",
-                    "schema:value": 95.7
-            },
-            {
-                    "schema:name": "95.8",
-                    "schema:value": 95.8
-            },
-            {
-                    "schema:name": "95.9",
-                    "schema:value": 95.9
-            },
-            {
                     "schema:name": "96.0",
                     "schema:value": 96.0
-            },
-            {
-                    "schema:name": "96.1",
-                    "schema:value": 96.1
-            },
-            {
-                    "schema:name": "96.2",
-                    "schema:value": 96.2
-            },
-            {
-                    "schema:name": "96.3",
-                    "schema:value": 96.3
-            },
-            {
-                    "schema:name": "96.4",
-                    "schema:value": 96.4
-            },
-            {
-                    "schema:name": "96.5",
-                    "schema:value": 96.5
-            },
-            {
-                    "schema:name": "96.6",
-                    "schema:value": 96.6
-            },
-            {
-                    "schema:name": "96.7",
-                    "schema:value": 96.7
-            },
-            {
-                    "schema:name": "96.8",
-                    "schema:value": 96.8
-            },
-            {
-                    "schema:name": "96.9",
-                    "schema:value": 96.9
             },
             {
                     "schema:name": "97.0",
                     "schema:value": 97.0
             },
             {
-                    "schema:name": "97.1",
-                    "schema:value": 97.1
-            },
-            {
-                    "schema:name": "97.2",
-                    "schema:value": 97.2
-            },
-            {
-                    "schema:name": "97.3",
-                    "schema:value": 97.3
-            },
-            {
-                    "schema:name": "97.4",
-                    "schema:value": 97.4
-            },
-            {
-                    "schema:name": "97.5",
-                    "schema:value": 97.5
-            },
-            {
-                    "schema:name": "97.6",
-                    "schema:value": 97.6
-            },
-            {
-                    "schema:name": "97.7",
-                    "schema:value": 97.7
-            },
-            {
-                    "schema:name": "97.8",
-                    "schema:value": 97.8
-            },
-            {
-                    "schema:name": "97.9",
-                    "schema:value": 97.9
-            },
-            {
                     "schema:name": "98.0",
                     "schema:value": 98.0
-            },
-            {
-                    "schema:name": "98.1",
-                    "schema:value": 98.1
-            },
-            {
-                    "schema:name": "98.2",
-                    "schema:value": 98.2
-            },
-            {
-                    "schema:name": "98.3",
-                    "schema:value": 98.3
-            },
-            {
-                    "schema:name": "98.4",
-                    "schema:value": 98.4
-            },
-            {
-                    "schema:name": "98.5",
-                    "schema:value": 98.5
-            },
-            {
-                    "schema:name": "98.6",
-                    "schema:value": 98.6
-            },
-            {
-                    "schema:name": "98.7",
-                    "schema:value": 98.7
-            },
-            {
-                    "schema:name": "98.8",
-                    "schema:value": 98.8
-            },
-            {
-                    "schema:name": "98.9",
-                    "schema:value": 98.9
             },
             {
                     "schema:name": "99.0",
                     "schema:value": 99.0
             },
             {
-                    "schema:name": "99.1",
-                    "schema:value": 99.1
-            },
-            {
-                    "schema:name": "99.2",
-                    "schema:value": 99.2
-            },
-            {
-                    "schema:name": "99.3",
-                    "schema:value": 99.3
-            },
-            {
-                    "schema:name": "99.4",
-                    "schema:value": 99.4
-            },
-            {
-                    "schema:name": "99.5",
-                    "schema:value": 99.5
-            },
-            {
-                    "schema:name": "99.6",
-                    "schema:value": 99.6
-            },
-            {
-                    "schema:name": "99.7",
-                    "schema:value": 99.7
-            },
-            {
-                    "schema:name": "99.8",
-                    "schema:value": 99.8
-            },
-            {
-                    "schema:name": "99.9",
-                    "schema:value": 99.9
-            },
-            {
                     "schema:name": "100.0",
                     "schema:value": 100.0
-            },
-            {
-                    "schema:name": "100.1",
-                    "schema:value": 100.1
-            },
-            {
-                    "schema:name": "100.2",
-                    "schema:value": 100.2
-            },
-            {
-                    "schema:name": "100.3",
-                    "schema:value": 100.3
-            },
-            {
-                    "schema:name": "100.4",
-                    "schema:value": 100.4
-            },
-            {
-                    "schema:name": "100.5",
-                    "schema:value": 100.5
-            },
-            {
-                    "schema:name": "100.6",
-                    "schema:value": 100.6
-            },
-            {
-                    "schema:name": "100.7",
-                    "schema:value": 100.7
-            },
-            {
-                    "schema:name": "100.8",
-                    "schema:value": 100.8
-            },
-            {
-                    "schema:name": "100.9",
-                    "schema:value": 100.9
             },
             {
                     "schema:name": "101.0",
                     "schema:value": 101.0
             },
             {
-                    "schema:name": "101.1",
-                    "schema:value": 101.1
-            },
-            {
-                    "schema:name": "101.2",
-                    "schema:value": 101.2
-            },
-            {
-                    "schema:name": "101.3",
-                    "schema:value": 101.3
-            },
-            {
-                    "schema:name": "101.4",
-                    "schema:value": 101.4
-            },
-            {
-                    "schema:name": "101.5",
-                    "schema:value": 101.5
-            },
-            {
-                    "schema:name": "101.6",
-                    "schema:value": 101.6
-            },
-            {
-                    "schema:name": "101.7",
-                    "schema:value": 101.7
-            },
-            {
-                    "schema:name": "101.8",
-                    "schema:value": 101.8
-            },
-            {
-                    "schema:name": "101.9",
-                    "schema:value": 101.9
-            },
-            {
                     "schema:name": "102.0",
                     "schema:value": 102.0
-            },
-            {
-                    "schema:name": "102.1",
-                    "schema:value": 102.1
-            },
-            {
-                    "schema:name": "102.2",
-                    "schema:value": 102.2
-            },
-            {
-                    "schema:name": "102.3",
-                    "schema:value": 102.3
-            },
-            {
-                    "schema:name": "102.4",
-                    "schema:value": 102.4
-            },
-            {
-                    "schema:name": "102.5",
-                    "schema:value": 102.5
-            },
-            {
-                    "schema:name": "102.6",
-                    "schema:value": 102.6
-            },
-            {
-                    "schema:name": "102.7",
-                    "schema:value": 102.7
-            },
-            {
-                    "schema:name": "102.8",
-                    "schema:value": 102.8
-            },
-            {
-                    "schema:name": "102.9",
-                    "schema:value": 102.9
             },
             {
                     "schema:name": "103.0",
                     "schema:value": 103.0
             },
             {
-                    "schema:name": "103.1",
-                    "schema:value": 103.1
-            },
-            {
-                    "schema:name": "103.2",
-                    "schema:value": 103.2
-            },
-            {
-                    "schema:name": "103.3",
-                    "schema:value": 103.3
-            },
-            {
-                    "schema:name": "103.4",
-                    "schema:value": 103.4
-            },
-            {
-                    "schema:name": "103.5",
-                    "schema:value": 103.5
-            },
-            {
-                    "schema:name": "103.6",
-                    "schema:value": 103.6
-            },
-            {
-                    "schema:name": "103.7",
-                    "schema:value": 103.7
-            },
-            {
-                    "schema:name": "103.8",
-                    "schema:value": 103.8
-            },
-            {
-                    "schema:name": "103.9",
-                    "schema:value": 103.9
-            },
-            {
                     "schema:name": "104.0",
                     "schema:value": 104.0
-            },
-            {
-                    "schema:name": "104.1",
-                    "schema:value": 104.1
-            },
-            {
-                    "schema:name": "104.2",
-                    "schema:value": 104.2
-            },
-            {
-                    "schema:name": "104.3",
-                    "schema:value": 104.3
-            },
-            {
-                    "schema:name": "104.4",
-                    "schema:value": 104.4
-            },
-            {
-                    "schema:name": "104.5",
-                    "schema:value": 104.5
-            },
-            {
-                    "schema:name": "104.6",
-                    "schema:value": 104.6
-            },
-            {
-                    "schema:name": "104.7",
-                    "schema:value": 104.7
-            },
-            {
-                    "schema:name": "104.8",
-                    "schema:value": 104.8
-            },
-            {
-                    "schema:name": "104.9",
-                    "schema:value": 104.9
             },
             {
                     "schema:name": "105.0",
